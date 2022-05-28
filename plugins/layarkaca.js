@@ -1,7 +1,7 @@
 let fetch = require('node-fetch')
 let { JSDOM } = require('jsdom')
 let handler = async (m, { text, usedPrefix, command }) => {
-  let res = await fetch(`http://149.56.24.226/?s=` + text, {
+  let res = await fetch(`http://104.219.250.236/?s=` + text, {
     headers: {
       "cache-control": "no-transform",
       "content-type": "text/html; charset=UTF-8",
